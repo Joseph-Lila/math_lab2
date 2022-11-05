@@ -1,11 +1,11 @@
 class CityTree:
-    def __init__(self, city_number=None, parent=None, total_cost=None, resolved_matrix=None):
+    def __init__(self, city_number=None, parent=None, total_cost=None, resolved_costs=None):
         self.left = None
         self.right = None
         self.parent = parent
         self.city_number = city_number
         self.total_cost = total_cost
-        self.resolved_matrix = resolved_matrix
+        self.resolved_costs = resolved_costs
 
 
 class Trunk:
